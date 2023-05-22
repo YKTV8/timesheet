@@ -25,15 +25,15 @@ background: linear-gradient(135deg, rgb(164,79,155) 0%, rgb(108,203,201) 99%, rg
     th {
       background-color: lightgray;
     }
-    .clockIn button{
+    #time-button{
         color: #fff;
         background-color: green;
     }
-    .clockOut button{
+    #timeout-button{
         color: #fff;
         background-color: red;
     }
-    .week{
+    .week1,.week2,.week3,.week4{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -44,6 +44,6 @@ background: linear-gradient(135deg, rgb(164,79,155) 0%, rgb(108,203,201) 99%, rg
         border: solid 3px black;
         border-radius: 20px;
         background-color: rgba(25, 147, 127, 0.9);
-        height: 245px;
+        height: 345px;
         width: 245px;
     }
