@@ -1,4 +1,18 @@
-
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(149, 62, 164); */
+    background: rgb(164,79,155);
+background: -moz-linear-gradient(-45deg, rgb(164,79,155) 0%, rgb(108,203,201) 99%, rgb(101,82,117) 100%);
+background: -webkit-linear-gradient(-45deg, rgb(164,79,155) 0%, rgb(108,203,201) 99%, rgb(101,82,117) 100%);
+background: linear-gradient(135deg, rgb(164,79,155) 0%, rgb(108,203,201) 99%, rgb(101,82,117) 100%);
+}
+    
     table {
       border-collapse: collapse;
     }
@@ -18,4 +32,18 @@
     .clockOut button{
         color: #fff;
         background-color: red;
+    }
+    .week{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .monday,.tuesday,.wednesday,.thursday,.friday{
+        display: flex;
+        flex-direction: column;
+        border: solid 3px black;
+        border-radius: 20px;
+        background-color: rgba(25, 147, 127, 0.9);
+        height: 245px;
+        width: 245px;
     }
