@@ -1,5 +1,5 @@
 // Function for timestamp
-function captureTime(){
+  function captureTime(){
     // Get current time
     var currentTime = new Date();
     //Update the text of the button element to show the capture time
